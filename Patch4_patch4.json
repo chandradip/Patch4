@@ -16,7 +16,7 @@
       {
         "name": "default-req-rewrite-rule",
         "sequence_number": 1,
-        "action": "Insert Header",
+        "action": "Rewrite Header",
         "header": "X-Forwarded-For",
         "rewrite_value_type": "request",
         "old_value": "*",

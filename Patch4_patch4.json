@@ -16,7 +16,7 @@
       {
         "name": "default-req-rewrite-rule",
         "sequence_number": 1,
-        "action": "Rewrite Header",
+        "action": "Insert Header",
         "header": "X-Forwarded-For",
         "rewrite_value_type": "request",
         "old_value": "*",
@@ -38,6 +38,6 @@
         "comments": null
       }
     ],
-    "enabled": false
+    "enabled": true
   },
 }
